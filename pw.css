@@ -113,9 +113,10 @@ h1 {
   margin-right: 5px;
 }
 .Verd-Frut .Frut .avatar {
-  border-radius: 60px 80px 60px 0px;
+  border-radius: 60% 0% 60% 80%;
   border: 1px solid rgb(241, 6, 6);
-  width: 90%;
+  width: 137px;
+  height: 92px;
   margin-top: 10px;
   }
 
@@ -170,7 +171,8 @@ h1 {
 .Verd-Frut .Verd .avatar {
   border-radius: 60% 0% 60% 80%;
   border: 1px solid rgb(241, 6, 6);
-  width: 67%;
+  width: 137px;
+  height: 92px;
   margin-top: 10px;
 }
 .Verd-Frut .Verd .titulo {
@@ -229,13 +231,14 @@ h1 {
   background-color: white;
   border: 1px solid gray;
   padding: 10px;
- /* display: inline-block; */
+  display: inline-block;
   margin-right: 5px;
 }
 .modos .Frutnat .segavatar {
   border-radius: 60px 80px 60px 0px;
   border: 1px solid rgb(241, 6, 6);
-  width: 90%;
+  width: 137px;
+  height: 92px;
   margin-top: 10px;
   }
 
@@ -290,9 +293,10 @@ h1 {
 .modos .Verdnat .segavatar {
   border-radius: 60px 80px 60px 0px;
   border: 1px solid rgb(241, 6, 6);
-  width: 90%;
+  width: 137px;
+  height: 92px;
   margin-top: 10px;
-  }
+    }
 
 .modos .Verdnat .segtitulo {
   font-size: 10px;
@@ -308,15 +312,6 @@ h1 {
   overflow: scroll;
 }
 
-.modos .Verdnat .segdescripcion {
-  font-size: 10px;
-  height: 73px;
-  font-weight: bold;
-  color: gray;
-  overflow: scroll;
-}
-
-
 .modos .Verdnat .segbtn {
   background: rgb(104, 5, 5);
   font-size: 14px;
@@ -331,7 +326,7 @@ h1 {
 .modos .Verdnat:hover {
   background-color: red;
 }
-.modos .cong {
+.modos .Cong {
   width: 150px;
   height: 250px;
   font-size: 16px;
@@ -341,20 +336,21 @@ h1 {
   display: inline-block;
   margin-right: 5px;
 }
-.modos .cong .segavatar {
+.modos .Cong .teravatar {
   border-radius: 60px 80px 60px 0px;
   border: 1px solid rgb(241, 6, 6);
-  width: 90%;
+  width: 137px;
+  height: 92px;
   margin-top: 10px;
   }
 
-.modos .cong .segtitulo {
+.modos .Cong .tertitulo {
   font-size: 10px;
   font-weight: bold;
   margin-bottom: 5px;
   margin-top: 5px;
 }
-.modos .cong .segdescripcion {
+.modos .cong .terdescripcion {
   font-size: 10px;
   height: 73px;
   font-weight: bold;
@@ -362,7 +358,7 @@ h1 {
   overflow: scroll;
 }
 
-.modos .cong .segdescripcion {
+.modos .Cong .terdescripcion {
   font-size: 10px;
   height: 73px;
   font-weight: bold;
@@ -371,7 +367,7 @@ h1 {
 }
 
 
-.modos .cong .segbtn {
+.modos .Cong .terbtn {
   background: rgb(104, 5, 5);
   font-size: 14px;
   font-weight: bold;
@@ -382,7 +378,7 @@ h1 {
   border-radius: 15px 15px 15px 15px;
 }
 
-.modos .cong:hover {
+.modos .Cong:hover {
   background-color: red;
 }
 
