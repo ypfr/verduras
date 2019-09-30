@@ -95,8 +95,7 @@ h1 {
 .er-blok {
   text-align: center;
   background-color: rgb(177, 243, 177);
-  
-}
+  }
 
 .Verd-Frut {
   margin: 0 auto;
@@ -215,15 +214,176 @@ h1 {
 .seg-blok {
   text-align: center;
   background-color: rgb(138, 238, 138);
+  display: grid;
+  grid-row: row;
 }
 
-.beneficio {
-  width: 100px;
-  height: 200px;
-  background-color: aquamarine;
+.modos {
+  margin: 0 auto;
+  font-size: 0;
+}
+.modos .Frutnat {
+  width: 150px;
+  height: 250px;
+  font-size: 16px;
+  background-color: white;
   border: 1px solid gray;
-  float: left;
+  padding: 10px;
+ /* display: inline-block; */
   margin-right: 5px;
+}
+.modos .Frutnat .segavatar {
+  border-radius: 60px 80px 60px 0px;
+  border: 1px solid rgb(241, 6, 6);
+  width: 90%;
+  margin-top: 10px;
+  }
+
+.modos .Frutnat .segtitulo {
+  font-size: 10px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.modos .Frutnat .segdescripcion {
+  font-size: 10px;
+  height: 73px;
+  font-weight: bold;
+  color: gray;
+  overflow: scroll;
+}
+
+.modos .Frutnat .segdescripcion {
+  font-size: 10px;
+  height: 73px;
+  font-weight: bold;
+  color: gray;
+  overflow: scroll;
+}
+
+
+.modos .Frutnat .segbtn {
+  background: rgb(104, 5, 5);
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+  margin-top: 5px;
+  padding: 3px;
+  color: white;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.modos .Frutnat:hover {
+  background-color: red;
+}
+
+.modos .Verdnat {
+  width: 150px;
+  height: 250px;
+  font-size: 16px;
+  background-color: white;
+  border: 1px solid gray;
+  padding: 10px;
+  display: inline-block;
+  margin-right: 5px;
+}
+.modos .Verdnat .segavatar {
+  border-radius: 60px 80px 60px 0px;
+  border: 1px solid rgb(241, 6, 6);
+  width: 90%;
+  margin-top: 10px;
+  }
+
+.modos .Verdnat .segtitulo {
+  font-size: 10px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.modos .Verdnat .segdescripcion {
+  font-size: 10px;
+  height: 73px;
+  font-weight: bold;
+  color: gray;
+  overflow: scroll;
+}
+
+.modos .Verdnat .segdescripcion {
+  font-size: 10px;
+  height: 73px;
+  font-weight: bold;
+  color: gray;
+  overflow: scroll;
+}
+
+
+.modos .Verdnat .segbtn {
+  background: rgb(104, 5, 5);
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+  margin-top: 5px;
+  padding: 3px;
+  color: white;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.modos .Verdnat:hover {
+  background-color: red;
+}
+.modos .cong {
+  width: 150px;
+  height: 250px;
+  font-size: 16px;
+  background-color: white;
+  border: 1px solid gray;
+  padding: 10px;
+  display: inline-block;
+  margin-right: 5px;
+}
+.modos .cong .segavatar {
+  border-radius: 60px 80px 60px 0px;
+  border: 1px solid rgb(241, 6, 6);
+  width: 90%;
+  margin-top: 10px;
+  }
+
+.modos .cong .segtitulo {
+  font-size: 10px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.modos .cong .segdescripcion {
+  font-size: 10px;
+  height: 73px;
+  font-weight: bold;
+  color: gray;
+  overflow: scroll;
+}
+
+.modos .cong .segdescripcion {
+  font-size: 10px;
+  height: 73px;
+  font-weight: bold;
+  color: gray;
+  overflow: scroll;
+}
+
+
+.modos .cong .segbtn {
+  background: rgb(104, 5, 5);
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+  margin-top: 5px;
+  padding: 3px;
+  color: white;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.modos .cong:hover {
+  background-color: red;
 }
 
 .tercer-bloque {
