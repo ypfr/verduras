@@ -376,24 +376,163 @@ h1 {
   padding: 3px;
   color: white;
   border-radius: 15px 15px 15px 15px;
-}
+ }
 
-.modos .Cong:hover {
+ .modos .Cong:hover {
   background-color: red;
-}
+ }
 
-.tercer-bloque {
+ .tercer-bloque {
   background-color: rgb(62, 214, 88);
-}
+  text-align: center;
+  display: grid;
+  grid-row: row;
+ }
 
-.muchas-menciones .mencion {
+ .Ofertas {
+  margin: 0 auto;
+  font-size: 0;
+}
+.Ofertas .priofert {
   width: 150px;
-  height: 200px;
-  background-color: aquamarine;
+  height: 250px;
+  font-size: 16px;
+  background-color: white;
   border: 1px solid gray;
-  float: left;
+  padding: 10px;
+  display: inline-block;
   margin-right: 5px;
 }
+ .Ofertas .priofert .teravatar {
+  border-radius: 60px 80px 60px 0px;
+  border: 1px solid rgb(241, 6, 6);
+  width: 137px;
+  height: 92px;
+  margin-top: 10px;
+    }
+
+ .Ofertas .priofert .tertitulo {
+  font-size: 10px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+ .Ofertas .priofert .terdescripcion {
+  font-size: 10px;
+  height: 73px;
+  font-weight: bold;
+  color: gray;
+  overflow: scroll;
+}
+
+.Ofertas .priofert .terbtn {
+  background: rgb(104, 5, 5);
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+  margin-top: 5px;
+  padding: 3px;
+  color: white;
+  border-radius: 15px 15px 15px 15px;
+  }
+
+ .Ofertas .priofert:hover {
+  background-color: red;
+  }
+  
+  .Ofertas .segofert {
+    width: 150px;
+    height: 250px;
+    font-size: 16px;
+    background-color: white;
+    border: 1px solid gray;
+    padding: 10px;
+    display: inline-block;
+    margin-right: 5px;
+  }
+  .Ofertas .segofert .teravatar {
+    border-radius: 60px 80px 60px 0px;
+    border: 1px solid rgb(241, 6, 6);
+    width: 137px;
+    height: 92px;
+    margin-top: 10px;
+      }
+  
+  .Ofertas .segofert .tertitulo {
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  .Ofertas .segofert .terdescripcion {
+    font-size: 10px;
+    height: 73px;
+    font-weight: bold;
+    color: gray;
+    overflow: scroll;
+  }
+  
+  .Ofertas .segofert .terbtn {
+    background: rgb(104, 5, 5);
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 5px;
+    padding: 3px;
+    color: white;
+    border-radius: 15px 15px 15px 15px;
+  }
+  
+  .Ofertas .segofert:hover {
+    background-color: red;
+  }
+ 
+  .Ofertas .terofert {
+    width: 150px;
+    height: 250px;
+    font-size: 16px;
+    background-color: white;
+    border: 1px solid gray;
+    padding: 10px;
+    display: inline-block;
+    margin-right: 5px;
+  }
+  .Ofertas .terofert .teravatar {
+    border-radius: 60px 80px 60px 0px;
+    border: 1px solid rgb(241, 6, 6);
+    width: 137px;
+    height: 92px;
+    margin-top: 10px;
+      }
+  
+  .Ofertas .terofert .tertitulo {
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  .Ofertas .terofert .terdescripcion {
+    font-size: 10px;
+    height: 73px;
+    font-weight: bold;
+    color: gray;
+    overflow: scroll;
+  }
+  
+  .Ofertas .terofert .terbtn {
+    background: rgb(104, 5, 5);
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 5px;
+    padding: 3px;
+    color: white;
+    border-radius: 15px 15px 15px 15px;
+  }
+  
+  .Ofertas .terofert:hover {
+    background-color: red;
+  }
 
 .pie {
   background-color: rgb(16, 71, 24);
