@@ -542,8 +542,9 @@ h1 {
 }
 
 .pie .logo {
-  height: 80%;
-  float: left;
+  height: 70%;
+  width: 100px;
+  border-radius: 20px 15px 20px 15px;
 }
 
 .clear {
